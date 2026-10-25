@@ -1,6 +1,6 @@
 #include <PulsePosition.h>
 
-const int PWM_PIN = 9; // PPM 訊號接在 Pin 9
+const int PWM_PIN = 9; // PWM訊號能接在大部分的Teensy腳位上
 PulsePositionInput ReceiverInput(RISING);
 
 unsigned long lastPrintTime = 0;
